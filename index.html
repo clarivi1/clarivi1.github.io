@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Simply Flat</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
 </head>
 <body>
 <!-- Heading 1, make a link and use "index.html" for href attribute value -->
-   <header>
-        <div>
-         <h1><a href="index.html">Simply Flat</a></h1>
+   <div class="container">
+       <header class="row">
+        <div class="one-third column">
+         <h1>
+<a href="index.html">Simply Flat</a></h1>
     </div>
     
-    <nav>
+    <nav class="two-thirds column">
         <ul><!-- Unordered list -->
            <li><a href="index.html"> Home</a></li>
             <!-- Link, make href attribute value = "index.html" -->
@@ -40,7 +45,7 @@
         <a href="#">See Our Clients</a>
         
         <!-- Image, path to image is "images/home-banner.png", enter "Laptop" for alt attribute value -->
-        <img src="images/home-banner.png" alt="Laptop">
+        <img src="images/home-banner.png" alt="Laptop" class="img-responsive">
     </section>
     
     <!-- Heading 3, make "Find Out More" a link and use "#" for href attribute value -->
@@ -48,12 +53,12 @@
          <h3>This theme is fully responsive. Well of course it is. This is great! <a href="#">Find Out More</a></h3>
     </section>
     
-    <section>
+    <section class="row">
         <!-- Heading 1 -->
         <h1>You should you choose Simply Flat</h1>
         
         <!-- Heading 3 -->
-        <div>
+        <div class="one-third column">
             <h3>Fully Responsive</h3>
             
             <!-- Paragraph -->
@@ -61,7 +66,7 @@
         </div>
         
         <!-- Heading 3 -->
-      <div>
+      <div class="one-third column">
               <h3>Super Flat & Fun</h3>
             
             <!-- Paragraph -->
@@ -69,7 +74,7 @@
         </div>
         
         <!-- Heading 3 -->
-       <div>
+       <div class="one-third column">
              <h3>Easy to Configure</h3>
             
             <!-- Paragraph -->
@@ -78,14 +83,17 @@
     </section>
     
     <!-- Heading 2 -->
-    <section><h2>Showcase all your work</h2>
+    <section class="row">
+       <div class="one-half column">
+       <h2>Showcase all your work</h2>
         
         <!-- Paragraph -->
         <p>Eruditi fabellas maiestatis ei vis, populo audiam mnesarchum et vis, prima saepe pri ad. Quidam nonumes an vel, no quo reque eloquentiam. Ex saperet omittantur vix, usu ut bonorum similique. Cum sale commodo ponderum id, nihil vidisse at sed, euismod vivendo ius ne.Quis error concludaturque.</p>
         
         <!-- Link, use "#" for href attribute value -->
         <a href="#">See Our Clients</a>
-        
+        </div>
+        <div class="one-half column">
         <!-- Paragraph -->
         <p>Sit amettur</p>
         
@@ -96,13 +104,14 @@
         <p>Pellsque eu posuere</p>
         
         <!-- Paragraph -->
-        <p>Dolor sit amet</p>
+            <p>Dolor sit amet</p>
+</div>
     </section>
-        <section><!-- Image, path to image is "images/responsive.png", enter "Responsive" for alt attribute value -->
-            <img src="images/responsive.png" alt="Responsive">
+        <section class="row"><!-- Image, path to image is "images/responsive.png", enter "Responsive" for alt attribute value -->
+            <div class="one-third column"><img src="images/responsive.png" alt="Responsive"></div>
                    
-                <h2><!-- Heading 2 -->
-            Looks Great Everywhere</h2>
+               <div class="one-whole column"> <h2><!-- Heading 2 -->
+                   Looks Great Everywhere</h2>
                 
                 <!-- Paragraph -->
                 <p>Inani decore labore ei vel, vix ut agam soleat rendum. Cum meliore postulant ex, aliquam suscipit patrioque usu in meliore postulant.</p>
@@ -111,16 +120,16 @@
                 <ul><li>Point One</li>
                    <li> Point Two</li>
                    <li> Point Three</li>
-            <li>Point Four</li></ul>
+                    <li>Point Four</li></ul></div>
                 </section>
-    <section>
-       <div>
+    <section class="row">
+       <div class="one-third column">
              <!-- Image, path to image is "http://lorempixel.com/400/275/business/", enter "Business meeting" for alt attribute value -->
-            <img src="http://lorempixel.com/400/275/business/" alt="Business meeting">
+            <img src="http://lorempixel.com/400/275/business/" alt="Business meeting" class="img-responsive">
         </div>
         
         <!-- Heading 2 -->
-       <div>
+       <div class="two-thirds column">
              <h2>From the blog</h2>
             
             <!-- Paragraph -->
@@ -134,9 +143,9 @@
 
 
 
-<footer>
+<footer class="row">
     <!-- Heading 4 -->
-  <div>
+  <div class="one-third column">
           <h4>Simply Flat</h4>
         
         <!-- Paragraph -->
@@ -144,7 +153,7 @@
     </div>
     
     <!-- Heading 4 -->
-   <div>
+   <div class="one-third column">
          <h4>Testimonials</h4>
         
         <!-- Paragraph -->
@@ -153,7 +162,7 @@
     </div>
     
     <!-- Heading 4 -->
-    <div>
+    <div class="one-third column">
         <h4>Contact Us</h4>
         
         <!-- Unordered List, make the URL a link and use "#" for href attribute value-->
@@ -164,21 +173,21 @@
             <a href="#">http://www.example.com</a></ul>
     </div>
     
-  <div>  <!-- Heading 4 -->
+  <div class="one-whole column">  <!-- Heading 4 -->
         <h4>We're Social</h4>
         
         <!-- Social media icons go here - You will add them later -->
         </div>
-  <div>
+  <div class="one-half column">
           <!-- Paragraph -->
         <p>&copy; 2013 Simply Flat</p>
     </div>
     
-   <div>
+   <div class="one-half column">
          <!-- Paragraph, make "Northify" a link and use "#" for href attribute value -->
         <p>Theme by <a href="#">Northify</a></p>
     </div>
 </footer>
-
+</div>
 </body>
 </html> 
