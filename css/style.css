@@ -1,5 +1,17 @@
+/* Box sizing */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 .container {
-    width:  960px;
+    width: 960px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -47,7 +59,7 @@
 }
 
 nav ul li {
-    display:  inline-block;
+    display: inline-block;
 }
 
 ul {
@@ -57,5 +69,117 @@ ul {
 
 .img-responsive {
     max-width: 100%
-        
+}
+
+
+/*header css*/
+
+.brand {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.nav {
+    padding-top: 60px;
+}
+
+.pull-right {
+    float: right;
+}
+
+
+/*footer Css*/
+
+.social {
+    text-align: center;
+}
+
+
+/*Main Content Css*/
+
+.page-head {
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.page-header p {
+    padding-left: 15px;
+}
+
+
+/*home page css*/
+
+.page-header.home {
+    margin-bottom: 0;
+}
+
+.message {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-content-top h1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.main-content-bottom {
+    padding-bottom: 75px;
+}
+
+.blog-tease {
+    height: 210px;
+}
+
+
+/*About Page Css*/
+
+.team h1 {
+    margin-bottom: 40px;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+
+/*Portfolio Page Css*/
+
+.portfolio-item {
+    margin-bottom: 10px;
+}
+
+.portfolio-title {
+    display: none;
+    /*hide portfolio image text */
+}
+
+
+/*blog page Css*/
+
+.info li {
+    display: inline-block;
+}
+
+.sidebar {
+    padding: 10px;
+}
+
+.recent-entries img {
+    float: left;
+    padding-right: 10px;
+}
+
+.photos img {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*Contact Page Css*/
+
+.table,
+.form p,
+.map h2 {
+    margin-left: 15px;
 }
