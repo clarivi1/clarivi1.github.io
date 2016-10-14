@@ -1,3 +1,98 @@
+/*General Colors*/
+
+body {
+    color: #999;
+    background-color: #edecea;
+}
+
+h1 {
+    color: #373737;
+}
+
+h2 {
+    color: #373737;
+}
+
+h3 {
+    color: #373737;
+}
+
+h4 {
+    color: #373737;
+}
+
+a {
+    color: #fff;
+}
+
+.header {
+    background-color: #373737;
+}
+
+.main {
+    background-color: #edecea;
+}
+
+.footer {
+    background-color: #373737;
+}
+
+.footer h4 {
+    color: #fff;
+}
+
+.footer p {
+    color: #999;
+}
+
+.footer-bottom {
+    background-color: #1e1f1f;
+    color: #fff;
+}
+
+.contentbox {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.contentbox li {
+    color: #373737;
+}
+
+.contentbox-beige {
+    background-color: #f9f8f8;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.contentbox-turquoise {
+    background-color: #5adae2;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.contentbox>img {
+    float: left;
+    margin-right: 15px;
+}
+
+.tile {
+    background-color: #5adae2;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-tease {
+    color: #fff;
+}
+
+.blog-tease h2 {
+    color: #fff;
+}
+
+
 /* Box sizing */
 
 html {
@@ -50,6 +145,10 @@ html {
     width: 140px;
 }
 
+.one-quarter {
+    width: 220px;
+}
+
 .alpha {
     margin-left: 0;
 }
@@ -97,9 +196,11 @@ ul {
 
 /*Main Content Css*/
 
-.page-head {
+.page-header {
     padding-top: 30px;
     margin-bottom: 50px;
+    background-color: #5adae2;
+    color: #fff;
 }
 
 .page-header p {
@@ -116,6 +217,11 @@ ul {
 .message {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #4cd2da;
+}
+
+.message {
+    color: #fff;
 }
 
 .main-content-top h1 {
